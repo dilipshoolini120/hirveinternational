@@ -6,11 +6,14 @@ import Home from './components/pages/Home'
 import AboutUs from './components/pages/AboutUs';
 import Products from './components/pages/Products';
 import ContactUs from './components/pages/ContactUs';
+import ScrollToTop from './components/ScrollToTop'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <>
     <Router>
+      <ScrollToTop />
       <Navbar/>
       <Routes>
         <Route path='/' exact Component={Home}/>

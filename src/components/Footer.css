@@ -111,3 +111,22 @@
     width: 240px;
     
 }
+@media (max-width: 768px) {
+    .footer-link-wrapper {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .social-media-wrap {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+    .btn--outline{
+        width: 70%;
+        font-size: large;
+    }
+}

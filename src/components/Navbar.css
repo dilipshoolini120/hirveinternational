@@ -2,7 +2,7 @@
     background: linear-gradient(90deg, rgb(9, 52, 100) 0%, rgb(50, 85, 125) 100%);
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    max-width: 1024px;
+    max-width: 1500px;
   }
   
   .navbar-logo {
@@ -41,13 +41,15 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
+    width: 60%;
     justify-content: end;
     margin-right: 2rem;
   }
   
   .nav-item {
     height: 80px;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   
   .nav-links {
@@ -80,13 +82,15 @@
     .NavbarItems {
       position: relative;
     }
+    .navbar{
+      height: 120px;
+    }
   
     .nav-menu {
       display: table;
       flex-direction: column;
       width: 100%;
-      height: 90vh;
-      word-wrap: nowrap;
+      height: 90%;
       position:absolute;
       top: 80px;
       left: -100%;
@@ -101,15 +105,20 @@
       transition: all 0.5s ease;
       z-index: 1;
     }
-  
+    .nav-section{
+      width:100px
+    }
+    .nav-section > p{
+
+    } 
     .nav-links {
       text-align:center;
       text-wrap:nowrap;
       padding: 1.5rem;
-      padding-left: 40%;
-      padding-right: 55%;
-      width: 50%;
-      display: table;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      display: flex;
     }
   
     .nav-links:hover {
@@ -120,9 +129,11 @@
   
     .navbar-logo {
       position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
+      top: 0px;
+      display: flex;
+      /* align-items: flex-start; */
+      left: 10px;
+      transform: translate(0%, 50%);
     }
   
     .menu-icon {

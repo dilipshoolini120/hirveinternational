@@ -7,7 +7,7 @@ import Element from "../Element";
 export default function AboutUs() {
     return(
     <>
-    {/* <h1 className="about-us">HIRVE INTERNATIONAL</h1> */}
+    <h1 className="about-us">About us</h1>
     <Element/>
     <Footer/>
     </>

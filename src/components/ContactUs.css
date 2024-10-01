@@ -1,9 +1,27 @@
+.contact-us{
+    font-family: 'Playfair display',bold;
+    background-color: rgb(246, 246, 233);
+    height: 10vh;
+    font-size: 30px;  
+    border-bottom: 1px solid rgb(3, 5, 7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 3;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
 .contact-sub {
     display: flex;
     flex-direction: column;
+    background-color: azure;
 }
 .input-areas {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content:center;
     align-items: flex-start;
     text-align: start;
@@ -14,7 +32,30 @@
     align-items: flex-start;
     padding: 20px;
     margin:20px;
-
+}
+.input-areas-que{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+.input-area-q{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+.contact-input-q::placeholder{
+    color:#b1b1b1;
+    border: #000000;
+}
+.contact-input-q{
+    border-radius: 2px;
+    outline:none;
+    width: 700px;
+    height: 100px;
+    margin-bottom: 30px;
 }
 .contact-input::placeholder {
     color:#b1b1b1;
@@ -34,7 +75,6 @@
     justify-content: right;
     padding: 20px 20px;
     margin-right:1%;
-    
 }
 .contact-us-wrapper{
     display: flex;
@@ -56,8 +96,7 @@
     padding: 20px;
 }
 
-.btn--primary {
-    
+.btn--primary { 
     padding: 10px 20px;
     margin-right:70px;
     color: #fff;
@@ -65,8 +104,44 @@
     background-color: rgb(28, 27, 27);
     border:1px solid #000000
 }
-@media screen and (max-width:100px) {
+@media screen and (max-width:768px) {
+    .contact-us{
+        font-size: 40px;
+    }
     .contact-input{
         width: 300px;
+    }
+    .contact-input-q{
+        width: 300px;
+    }
+    .input-area-q{
+        display: flex;
+        flex-direction: column;
+        margin:0;
+    }
+    .input-areas-que{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .input-areas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .input-area-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin:0;
+    }
+    .contact-sub{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-us-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }

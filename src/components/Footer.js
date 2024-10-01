@@ -1,9 +1,10 @@
 import React from 'react'
 import { Button } from './Button'
 import './Footer.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faBars,faShip,faXmark} from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {faBars,faShip,faXmark} from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
+
 
 function Footer() {
   return (
@@ -14,8 +15,8 @@ function Footer() {
             </p>
             <div className='input-areas'>
                 <form>
-                    <input type='email' name='email' placeholder='Your Email' className='footer-input'/>
-                    <Button buttonStyle='btn--outline'>Connect</Button>
+                    {/* <input type='email' name='email' placeholder='Your Email' className='footer-input'/> */}
+                    <Button buttonStyle='btn--outline' onClick='/contact-us'>Connect</Button>
                 </form>
             </div>
         </section>

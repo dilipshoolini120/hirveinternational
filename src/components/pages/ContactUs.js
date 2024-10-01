@@ -21,10 +21,6 @@ export default function ContactUs() {
                     <form>
                         <input type='text' name='phone' placeholder='Your Phone Number' className='contact-input'/>
                     </form>
-                    <p className="contact-sub-heading"> Query</p>
-                    <form>
-                        <input type='text' name='message' placeholder='Your Message' className='contact-input'/>
-                    </form>
                 </div>
                 <div className="input-area-wrapper">
                     <p className='contact-sub-heading'>
@@ -41,6 +37,16 @@ export default function ContactUs() {
                     </form>
                 </div>
             </div>
+            <div className='input-areas-que'>
+            <div className="input-area-q">
+                    <p className="contact-sub-heading-q"> 
+                        Query
+                    </p>
+                    <form>
+                        <input type='text' name='message' placeholder='Your Message' className='contact-input-q'/>
+                    </form>
+                </div>
+            </div>
             <div className="input-area-btn">
                 <Button buttonStyle='btn--primary'>Send Message</Button>
             </div>
@@ -49,15 +55,15 @@ export default function ContactUs() {
             <div className="contact-us-wrapper">
                 <div className="phone-sub">
                     <h2>Phone</h2>
-                    <h4>+91 12345678</h4>
+                    <h4>+91 9826277337</h4>
                 </div>
                 <div className="email-sub">
                     <h2>Email</h2>
-                    <h4>info@companyname.com</h4>
+                    <h4>info@hirveinternational.com</h4>
                 </div>
                 <div className="address-sub">
                     <h2>Address</h2>
-                    <h4>Company Name, Address Line 1, Address Line 2, City</h4>
+                    <h4>10,Hemson Colony, 302 Hemson Apartments, Indore - 452001</h4>
                 </div>
             </div>
             

@@ -1,8 +1,9 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
     margin: 0;
     padding: 0;
     font-family:'PT Sans', sans-serif;
+    
 }
 
 .home,
@@ -15,12 +16,20 @@
 }
 
 .about-us {
-    background-color: rgba(7, 179, 214, 0.614);
-    background-position: left;
+    /* background-image: url('components/images/grains-img-1.jpg'); */
+    font-family: 'Playfair display',bold;
+    background-color: azure;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    height: 3;
+    align-items: center;
+    justify-content: center;
     color: #000000;
+    height: 10vh;
     font-size: 30px;  
+    /* border-bottom: 1px solid rgb(3, 5, 7); */
 }
 
 .products {
@@ -33,7 +42,9 @@
 }
 
 .contact-us {
-    background-image: url('components/images/img-2.jpg');
+    /* background-image: url('components/images/img-2.jpg'); */
+    display:flex;
+    justify-content: center;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
