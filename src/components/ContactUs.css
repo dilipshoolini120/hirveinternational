@@ -51,6 +51,7 @@
     border: #000000;
 }
 .contact-input-q{
+    padding:8px 20px;
     border-radius: 2px;
     outline:none;
     width: 700px;

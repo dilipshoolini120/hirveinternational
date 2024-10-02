@@ -33,13 +33,13 @@ function Navbar() {
         <div className='navbar-container'>
             <div className='nav-section'>
               <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                  <FontAwesomeIcon icon={faShip} style={{color:'#46a2da'}}/> 
                   <p>HIRVE INTERNATIONAL</p> 
               </Link>
             </div>
             <div className='menu-icon' onClick={handleClick}>
-                {click ? <FontAwesomeIcon icon={faXmark} style={{ color: 'white' }}/> :<FontAwesomeIcon icon={faBars} style={{ color: 'white' }} />}
+                {click ? <FontAwesomeIcon icon={faXmark} style={{ color: 'black' }}/> :<FontAwesomeIcon icon={faBars} style={{ color: 'black' }} />}
             </div>
+            
             <ul className={click ? 'nav-menu active':'nav-menu'}>
                 <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}>
