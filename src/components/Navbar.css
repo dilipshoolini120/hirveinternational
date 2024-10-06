@@ -11,7 +11,7 @@
     top: 0;
     z-index: 999;
   }
-  
+
   .navbar-container {
     display: flex;
     flex-direction: row;
@@ -30,6 +30,7 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    font-family: Domine,bold;
   }
   
   /* .faShip {
@@ -42,7 +43,7 @@
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
     list-style: none;
-    text-align: ;
+    text-align: center;
     width: 60%;
     justify-content: end;
     margin-right: 2rem;
@@ -85,9 +86,9 @@
     .NavbarItems {
       position: relative;
     }
-    .navbar{
+    /* .navbar{
       height: 120px;
-    }
+    } */
   
     .nav-menu {
       display: table;
@@ -111,9 +112,7 @@
     .nav-section{
       width:100px
     }
-    .nav-section > p{
-
-    } 
+    /* .nav-section > p */
     .nav-links {
       text-align:center;
       text-wrap:nowrap;
@@ -128,6 +127,7 @@
       background-color: #fff;
       color: #242424;
       border-radius: 5;
+      border:1px solid;
     }
   
     .navbar-logo {
