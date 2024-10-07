@@ -51,7 +51,7 @@ function Element() {
                     </tr>
                     <tr>
                         <td>Address:</td>
-                        <td>10,Hemson Colony, 302 Hemson Apartments, Indore - 452001</td>
+                        <td>10,Hemson Colony, 202 Hemson Apartments, Indore - 452001</td>
                     </tr>
                     <tr>
                         <td>Contact Number:</td>

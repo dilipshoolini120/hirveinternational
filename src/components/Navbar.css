@@ -2,15 +2,17 @@
     /* background: linear-gradient(90deg, rgb(9, 52, 100) 0%, rgb(50, 85, 125) 100%); */
     background: white;
     height: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    border-bottom: 1px solid black;
+    /* align-items: center; */
     font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 999;
   }
+
 
   .navbar-container {
     display: flex;

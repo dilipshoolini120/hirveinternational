@@ -91,7 +91,7 @@ export default function ContactUs() {
                 </div>
                 <div className="address-sub">
                     <h2>Address</h2>
-                    <h4>10,Hemson Colony, 302 Hemson Apartments, Indore - 452001</h4>
+                    <h4>10,Hemson Colony, 202 Hemson Apartments, Indore - 452001</h4>
                 </div>
             </div>
             
