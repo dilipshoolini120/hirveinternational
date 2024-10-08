@@ -47,9 +47,9 @@ function Footer() {
                 </div>
                 <div className='footer-link-items'>
                     <h2>Contact Us</h2>
-                    <Link to='/'>Address</Link>
-                    <Link to='/'>Lorem Ipsum</Link>
-                    <Link to='/'>Dolor</Link>
+                    <p>+91 9826277337</p>
+                    <p>info@hirveinternational.com</p>
+                    <p>10,Hemson Colony, 202 Hemson Apartments, Indore - 452001</p>
                 </div>
             </div>
         </div>
