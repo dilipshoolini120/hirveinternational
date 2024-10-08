@@ -7,36 +7,36 @@ import axios from 'axios'
 import { useNavigate } from "react-router-dom";
 
 export default function ContactUs() {
-    const [values, setValues] = useState({
-        name:'',
-        phone:'',
-        email:'',
-        company:'',
-        message:''
-    })
+    // const [values, setValues] = useState({
+    //     name:'',
+    //     phone:'',
+    //     email:'',
+    //     company:'',
+    //     message:''
+    // })
 
-    const navigate = useNavigate();
-    const [errors, setErrors] = useState({ })
+    // const navigate = useNavigate();
+    // const [errors, setErrors] = useState({ })
 
-    const handleInput = (event) => {
-        setValues(prev => ({...prev,[event.target.name]:[event.target.value ]}))
-    }
-    const handleSubmit =(event) => {
-        event.preventDefault();
-        const err = Validation(values);
-        setErrors(err);
-        if(err.name === "" && err.phone === "" && err.email === "" && err.message === "" ){
-            axios.post('http://localhost:8081/contact-us', values)
-            .then(res => {
-                alert('You have successfully sent us your details!')
-                navigate('/');
-            })
-            .catch(err => console.log(err));
-        }
-    }
+    // const handleInput = (event) => {
+    //     setValues(prev => ({...prev,[event.target.name]:[event.target.value ]}))
+    // }
+    // const handleSubmit =(event) => {
+    //     event.preventDefault();
+    //     const err = Validation(values);
+    //     setErrors(err);
+    //     if(err.name === "" && err.phone === "" && err.email === "" && err.message === "" ){
+    //         axios.post('http://localhost:8081/contact-us', values)
+    //         .then(res => {
+    //             alert('You have successfully sent us your details!')
+    //             navigate('/');
+    //         })
+    //         .catch(err => console.log(err));
+    //     }
+    // }
     return ( <>
     <h1 className="contact-us"> GET IN TOUCH</h1>
-        <form className='contact-sub' onSubmit={handleSubmit}>
+        <form className='contact-sub' onSubmit={handleSubmit} netlify>
             <div className='input-areas'>
                 <div className="input-area-wrapper">    
                     <div className="area">
