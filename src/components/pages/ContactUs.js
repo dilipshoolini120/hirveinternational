@@ -26,7 +26,7 @@ export default function ContactUs() {
         const err = Validation(values);
         setErrors(err);
         if(err.name === "" && err.phone === "" && err.email === "" && err.message === "" ){
-            axios.post('http://localhost:8081/contact-us', values)
+            axios.post('https://backend-ywnt.onrender.com/', values)
             .then(res => {
                 alert('You have successfully sent us your details!')
                 navigate('/');
